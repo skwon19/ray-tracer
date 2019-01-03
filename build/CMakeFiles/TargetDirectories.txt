@@ -1,0 +1,6 @@
+/Users/Sophia/Documents/6.837/final_project/build/CMakeFiles/rebuild_cache.dir
+/Users/Sophia/Documents/6.837/final_project/build/CMakeFiles/edit_cache.dir
+/Users/Sophia/Documents/6.837/final_project/build/CMakeFiles/a4.dir
+/Users/Sophia/Documents/6.837/final_project/build/vecmath/CMakeFiles/rebuild_cache.dir
+/Users/Sophia/Documents/6.837/final_project/build/vecmath/CMakeFiles/edit_cache.dir
+/Users/Sophia/Documents/6.837/final_project/build/vecmath/CMakeFiles/vecmath.dir

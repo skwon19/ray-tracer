@@ -1,0 +1,86 @@
+
+PerspectiveCamera {
+    center -2.78 -8 2.73
+    direction 0 8 0
+    up 0 0 1
+    angle 37.7
+}
+
+Lights {
+    numLights 1
+    PointLight {
+        position -2.78 -8 2.73
+        color 0.9 0.9 0.9 
+        falloff 0.01
+    }
+}
+
+Background {
+    color 0 0 0
+    ambientLight 0.1 0.1 0.1 
+}
+
+Materials {
+    numMaterials 4
+    PhongMaterial {	
+        diffuseColor 1 1 1
+    	specularColor 0 0 0 
+    	shininess 20
+    }
+
+    PhongMaterial { 
+        diffuseColor 1 0 0
+        specularColor 0 0 0
+        shininess 20
+    }
+
+    PhongMaterial { 
+        diffuseColor 0 0 1
+        specularColor 0 0 0
+        shininess 20
+    }
+
+    PhongMaterial { 
+        diffuseColor 1 1 1
+    }
+}
+
+Group {
+    numObjects 7
+
+    MaterialIndex 0
+    TriangleMesh {
+        obj_file models/cornell_box_2_back.obj
+    }
+
+    MaterialIndex 0
+    TriangleMesh {
+        obj_file models/cornell_box_2_floor.obj
+    }
+
+    MaterialIndex 0
+    TriangleMesh {
+        obj_file models/cornell_box_2_ceiling.obj
+    }
+
+    MaterialIndex 2
+    TriangleMesh {
+        obj_file models/cornell_box_2_right.obj
+    }
+
+    MaterialIndex 1
+    TriangleMesh {
+        obj_file models/cornell_box_2_left.obj
+    }
+
+    MaterialIndex 3
+    TriangleMesh {
+        obj_file models/cornell_box_2_tall.obj
+    }
+
+    MaterialIndex 3
+    TriangleMesh {
+        obj_file models/cornell_box_2_short.obj
+    }
+}
+
